@@ -85,4 +85,8 @@ class TestController extends Controller
     {
         //
     }
+
+    public function printName($name='default') {
+        return 'My name is ' . $name;
+    }
 }
